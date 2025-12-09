@@ -84,7 +84,15 @@ article.menu figcaption{
 
 table, th, td {
   border: 1px solid black;
+  margin: 25px;
 } 
+
+caption{
+  border-style:solid;
+  border-width: 1px;
+  padding:15px 25px;
+  margin:20px 300px;
+}
 
 /* Footer stuff */
 
