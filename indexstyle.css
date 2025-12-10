@@ -1,0 +1,65 @@
+/*  ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*  ---------------Utility Classes----------------- */
+
+
+
+
+/*  ---------------Global Styles----------------- */
+body {
+  background-color:#ffffff;
+  font-family: "Alan Sans", sans-serif;
+  color: #000000;
+  margin:5px;
+
+}
+header.primary{
+  background:#0b6000;
+  color:#ffffff;
+  text-align:center;
+  text-shadow: 1px 1px #000000;
+  /*long form*/
+  margin: 0;
+  padding: 40px;
+
+}
+
+header.primary h1{
+font-size:2.4rem;
+color:#ffffff; 
+margin: 20px 0 0; 
+}
+
+ul.content{
+  color:#000000;
+  border: 10px solid rgb(14, 62, 0);
+  width:fit-content;
+  padding:10px;
+}
+
+ul.content h2{
+  color: #0b6000;
+}
+
+ul.content li{
+  margin:10px;
+}
+
+img.Screenshot {
+  height: 25%;
+  width: 25%;
+  border: 10px solid rgb(14, 62, 0);
+  margin: 10px 10px 10px 20px;  
+}
+
+
+
